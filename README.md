@@ -20,6 +20,14 @@ A drop-in replacement for Python's `open()` function that automatically versions
 pip install versionio
 ```
 
+## Use Cases
+
+- **Configuration files** - Track every change to your app's settings
+- **Data files** - Keep history of CSV, JSON, or other data files
+- **Log files** - Maintain append history with automatic rotation
+- **Critical documents** - Never lose important modifications
+- **Development** - Simple version control for single files
+  
 ## Quick Start
 
 ### Drop-in Replacement
@@ -98,14 +106,6 @@ policy = VersionPolicy(
     diff_based=False,     # Store full copies (future feature)
 )
 ```
-
-## Use Cases
-
-- **Configuration files** - Track every change to your app's settings
-- **Data files** - Keep history of CSV, JSON, or other data files
-- **Log files** - Maintain append history with automatic rotation
-- **Critical documents** - Never lose important modifications
-- **Development** - Simple version control for single files
 
 ## Contributing
 
