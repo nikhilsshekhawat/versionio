@@ -1,9 +1,7 @@
 # versionIO
 
 [![PyPI version](https://badge.fury.io/py/versionio.svg)](https://pypi.org/project/versionio/)
-[![Python Support](https://img.shields.io/pypi/pyversions/versionio.svg)](https://pypi.org/project/versionio/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Tests](https://github.com/yourusername/versionio/actions/workflows/tests.yml/badge.svg)](https://github.com/yourusername/versionio/actions)
 
 A drop-in replacement for Python's `open()` function that automatically versions your files.
 
@@ -115,7 +113,7 @@ Contributions are welcome! Please see our [Contributing Guide](CONTRIBUTING.md) 
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+Licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Links
 

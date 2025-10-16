@@ -1,8 +1,16 @@
 # Python compiled files
 __pycache__/
 *.pyc
+.mypy_cache/
+.pytest_cache/
+.ruff_cache
+venv/
+
+
 
 # Distribution / build files
 dist/
 build/
 *.egg-info
+*.egg-info/
+src/*.egg-info/src/versionio.egg-info/
